@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class OrderAddressPage {
 
-    @FindBy(xpath = "//button[@type=\"submit\" and @name=\"processAddress\"]")
+    @FindBy(xpath = "//button[@type='submit' and @name='processAddress']")
     private WebElement proceedToCheckoutButton;
 
     @Step

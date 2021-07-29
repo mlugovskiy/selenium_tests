@@ -6,13 +6,13 @@ import org.openqa.selenium.support.FindBy;
 
 public class CartSummaryPage {
 
-    @FindBy(xpath = "//p[@class=\"cart_navigation clearfix\"]/a[@title=\"Proceed to checkout\"]")
+    @FindBy(xpath = "//p[@class='cart_navigation clearfix']/a[@title='Proceed to checkout']")
     private WebElement proceedToCheckoutButton;
 
-    @FindBy(xpath = "(//small[@class=\"cart_ref\" and contains(text(), \"SKU\")])[1]")
+    @FindBy(xpath = "(//small[@class='cart_ref' and contains(text(), 'SKU')])[1]")
     private WebElement skuNumber;
 
-    @FindBy(xpath = "//p[@class=\"alert alert-warning\"]")
+    @FindBy(xpath = "//p[@class='alert alert-warning']")
     private WebElement emptyCartMessage;
 
     @Step

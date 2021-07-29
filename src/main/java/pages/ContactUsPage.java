@@ -7,31 +7,31 @@ import org.openqa.selenium.support.FindBy;
 
 public class ContactUsPage {
 
-    @FindBy(xpath = "//*[@id=\"email\"]")
+    @FindBy(xpath = "//*[@id='email']")
     private WebElement emailField;
 
-    @FindBy(xpath = "//*[@id=\"id_contact\"]/option[2]")
+    @FindBy(xpath = "//*[@id='id_contact']/option[2]")
     private WebElement optionCustomerService;
 
-    @FindBy(xpath = "//*[@id=\"message\"]")
+    @FindBy(xpath = "//*[@id='message']")
     private WebElement messageField;
 
-    @FindBy(xpath = "//*[@id=\"id_order\"]")
+    @FindBy(xpath = "//*[@id='id_order']")
     private WebElement orderReferenceField;
 
-    @FindBy(xpath = "//*[@id=\"fileUpload\"]")
+    @FindBy(xpath = "//*[@id='fileUpload']")
     private WebElement attachFileFild;
 
-    @FindBy(xpath = "//*[@id=\"submitMessage\"]")
+    @FindBy(xpath = "//*[@id='submitMessage']")
     private WebElement sendButton;
 
-    @FindBy(xpath = "//p[@class=\"alert alert-success\"]")
+    @FindBy(xpath = "//p[@class='alert alert-success']")
     private WebElement successAlert;
 
-    @FindBy(xpath = "//div[@class=\"alert alert-danger\"]/p")
+    @FindBy(xpath = "//div[@class='alert alert-danger']/p")
     private WebElement errorAlertLine1;
 
-    @FindBy(xpath = "//div[@class=\"alert alert-danger\"]/ol/li")
+    @FindBy(xpath = "//div[@class='alert alert-danger']/ol/li")
     private WebElement errorAlertLine2;
 
     @Step

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class OrderSummaryPage {
-    @FindBy(xpath = "//*[@id=\"cart_navigation\"]/button[@type=\"submit\"]")
+    @FindBy(xpath = "//*[@id='cart_navigation']/button[@type='submit']")
     private WebElement confirmOrderButton;
 
     @Step

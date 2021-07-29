@@ -6,10 +6,10 @@ import org.openqa.selenium.support.FindBy;
 
 public class OrderShippingPage {
 
-    @FindBy(xpath = "//p[@class=\"cart_navigation clearfix\"]/button[@type=\"submit\"]")
+    @FindBy(xpath = "//p[@class='cart_navigation clearfix']/button[@type='submit']")
     private WebElement proceedToCheckoutButton;
 
-    @FindBy(xpath = "//input[@id=\"cgv\"]")
+    @FindBy(xpath = "//input[@id='cgv']")
     private WebElement agreeCheckbox;
 
     @Step

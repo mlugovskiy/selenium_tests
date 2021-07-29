@@ -6,19 +6,19 @@ import org.openqa.selenium.support.FindBy;
 
 public class SignInPage {
 
-    @FindBy(xpath = "//*[@id=\"email\"]")
+    @FindBy(xpath = "//*[@id='email']")
     private WebElement emailField;
 
-    @FindBy(xpath = "//*[@id=\"passwd\"]")
+    @FindBy(xpath = "//*[@id='passwd']")
     private WebElement passwordField;
 
-    @FindBy(xpath = "//button[@id=\"SubmitLogin\"]")
+    @FindBy(xpath = "//button[@id='SubmitLogin']")
     private WebElement submitLoginButton;
 
-    @FindBy(xpath = "//div[@class=\"alert alert-danger\"]/p")
+    @FindBy(xpath = "//div[@class='alert alert-danger']/p")
     private WebElement errorAlertLine1;
 
-    @FindBy(xpath = "//div[@class=\"alert alert-danger\"]/ol/li")
+    @FindBy(xpath = "//div[@class='alert alert-danger']/ol/li")
     private WebElement errorAlertLine2;
 
     @Step

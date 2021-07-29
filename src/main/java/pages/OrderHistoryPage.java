@@ -8,13 +8,13 @@ import java.util.List;
 
 public class OrderHistoryPage {
 
-    @FindBy(xpath = "//a[contains(span/text(),\"Details\")]")
+    @FindBy(xpath = "//a[contains(span/text(),'Details')]")
     private List<WebElement> detailsButtons;
 
-    @FindBy(xpath = "//*[@id=\"order-detail-content\"]/table/tbody/tr/td[1]/label")
+    @FindBy(xpath = "//*[@id='order-detail-content']/table/tbody/tr/td[1]/label")
     private WebElement skuNumber;
 
-    @FindBy(xpath = "//*[@id=\"order-detail-content\"]/table/tbody/tr/td[2]/label")
+    @FindBy(xpath = "//*[@id='order-detail-content']/table/tbody/tr/td[2]/label")
     private WebElement productFullName;
 
     @Step

@@ -5,10 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class ChoosePaymentMethodPage {
-    @FindBy(xpath = "//a[@title=\"Pay by bank wire\"]")
+    @FindBy(xpath = "//a[@title='Pay by bank wire']")
     private WebElement payByBankWireButton;
 
-    @FindBy(xpath = "//a[@title=\"Pay by check.\"]")
+    @FindBy(xpath = "//a[@title='Pay by check.']")
     private WebElement payByCheckButton;
 
     @Step

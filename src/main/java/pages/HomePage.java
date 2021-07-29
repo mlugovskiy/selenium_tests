@@ -19,19 +19,19 @@ public class HomePage {
         PageFactory.initElements(this.driver,this);
     }
 
-    @FindBy(xpath = "(//div[@class=\"product-image-container\"])[1]")
+    @FindBy(xpath = "(//div[@class='product-image-container'])[1]")
     private WebElement firstProductImage;
 
-    @FindBy(xpath = "(//a[@title=\"Add to cart\"])[1]")
+    @FindBy(xpath = "(//a[@title='Add to cart'])[1]")
     private WebElement addToCartFirstProductButton;
 
-    @FindBy(xpath = "//a[@title=\"Proceed to checkout\"]")
+    @FindBy(xpath = "//a[@title='Proceed to checkout']")
     private WebElement proceedToCheckoutButton;
 
-    @FindBy(xpath = "//a[@class=\"product-name\"]")
+    @FindBy(xpath = "//a[@class='product-name']")
     private WebElement firstProductTitle;
 
-    @FindBy(xpath = "//a[@title=\"View my shopping cart\"]")
+    @FindBy(xpath = "//a[@title='View my shopping cart']")
     private WebElement cartButton;
 
     private void mouseOverFirstProductImage(){
