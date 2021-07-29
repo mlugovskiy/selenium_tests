@@ -19,7 +19,7 @@ public class OrderHistoryPage {
 
     @Step
     public void clickOnFirstLineDetailsButton(){
-        detailsButtons.get(1).click();
+        detailsButtons.get(0).click();
     }
 
     @Step

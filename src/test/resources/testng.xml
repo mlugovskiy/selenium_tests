@@ -2,21 +2,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name = "All Tests">
-    <test name="Chrome Tests">
-        <parameter name="browser" value="Chrome" />
-        <classes>
-            <class name="SendContactUsFormTests"/>
-            <class name="PurchaseTests">
-                <parameter name="username" value="mikhail.testuser@yandex.ru"/>
-                <parameter name="password" value="qadfchgVHJhbhvuyVFYy8876&amp;5766hbb"/>
-            </class>
-            <class name="SignInTests">
-                <parameter name="username" value="mikhail.testuser@yandex.ru"/>
-                <parameter name="password" value="qadfchgVHJhbhvuyVFYy8876&amp;5766hbb"/>
-            </class>
-            <class name="EmptyCartTest"/>
-        </classes>
-    </test>
+<!--    <test name="Chrome Tests">-->
+<!--        <parameter name="browser" value="Chrome" />-->
+<!--        <classes>-->
+<!--            <class name="SendContactUsFormTests"/>-->
+<!--            <class name="PurchaseTests">-->
+<!--                <parameter name="username" value="mikhail.testuser@yandex.ru"/>-->
+<!--                <parameter name="password" value="qadfchgVHJhbhvuyVFYy8876&amp;5766hbb"/>-->
+<!--            </class>-->
+<!--            <class name="SignInTests">-->
+<!--                <parameter name="username" value="mikhail.testuser@yandex.ru"/>-->
+<!--                <parameter name="password" value="qadfchgVHJhbhvuyVFYy8876&amp;5766hbb"/>-->
+<!--            </class>-->
+<!--            <class name="EmptyCartTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
     <test name="Firefox Tests">
         <parameter name="browser" value="Firefox" />
         <classes>

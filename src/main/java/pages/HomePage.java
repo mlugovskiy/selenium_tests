@@ -53,7 +53,7 @@ public class HomePage {
     public void clickOnProceedToCheckoutButton(){
 
         //wait until opens modal window with "Proceed to Checkout" button
-        WebDriverWait wait = new WebDriverWait(driver, 3);
+        WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.elementToBeClickable(proceedToCheckoutButton));
 
         proceedToCheckoutButton.click();
